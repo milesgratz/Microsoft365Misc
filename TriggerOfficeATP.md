@@ -14,7 +14,7 @@ Dim com As String
 Dim des As String
 Dim path As String
 
-com = "powershell -noexit -Command (Invoke-WebRequest 'https://raw.githubusercontent.com/milesgratz/PowerShell/master/TriggerOfficeATP_mkdir_example.cmd' -OutFile "
+com = "powershell -noexit -Command (Invoke-WebRequest 'https://github.com/milesgratz/Microsoft365Misc/blob/master/TriggerOfficeATP_mkdir_example.cmd' -OutFile "
 des = Environ("USERPROFILE")
 path = com & des & "\\TriggerOfficeATP_mkdir_example.cmd)"
 
